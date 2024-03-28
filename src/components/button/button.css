@@ -1,0 +1,21 @@
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width:150px;
+    padding:10px 0;
+    font-size: 20px;
+    font-weight:600;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(228, 31, 228);
+    color:#fff;
+}
